@@ -1,0 +1,36 @@
+{
+	"name": "da-grass",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@react-three/drei": "^9.121.5",
+		"@react-three/fiber": "^8.17.14",
+		"@react-three/postprocessing": "^2.19.1",
+		"@types/three": "^0.173.0",
+		"leva": "^0.10.0",
+		"linear-mcp": "link:/Users/xar/Documents/Cline/MCP/linear-mcp",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"three": "^0.173.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@types/react": "^18.3.1",
+		"@types/react-dom": "^18.3.1",
+		"@vitejs/plugin-react": "^4.3.4",
+		"eslint": "^9.19.0",
+		"eslint-plugin-react-hooks": "^5.0.0",
+		"eslint-plugin-react-refresh": "^0.4.18",
+		"globals": "^15.14.0",
+		"typescript": "~5.7.2",
+		"typescript-eslint": "^8.22.0",
+		"vite": "^6.1.0"
+	}
+}

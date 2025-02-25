@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>da grass | xar</title>
+		<link rel="stylesheet" href="/src/index.css" />
+		<style>
+			.button-container {
+				position: fixed;
+				bottom: 10px;
+				left: 10px;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
+			.ko-fi-button {
+				background-color: #ff5e5b;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				cursor: pointer;
+				animation: pulse 2s infinite;
+			}
+			.github-button {
+				background-color: #24292e;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			@keyframes pulse {
+				0% {
+					transform: scale(1);
+				}
+				50% {
+					transform: scale(1.05);
+				}
+				100% {
+					transform: scale(1);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root"></div>
+		<div class="button-container">
+			<a
+				href="https://ko-fi.com/X7X616PGB7"
+				target="_blank"
+				style="animation: pulse 2s infinite"
+				><img
+					height="36"
+					style="border: 0px; height: 36px"
+					src="https://storage.ko-fi.com/cdn/kofi3.png?v=6"
+					border="0"
+					alt="Buy Me a Coffee at ko-fi.com"
+			/></a>
+			<a href="YOUR_GITHUB_REPO_LINK" target="_blank">
+				<button class="github-button">GitHub Source</button>
+			</a>
+		</div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>
