@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# da grass by xar `=)`
 
 This repository contains a project that leverages React, TypeScript, and Vite to create a 3D scene with realistic grass rendering using React Three Fiber and Three.js. The project includes custom shaders and instanced rendering to efficiently handle a large number of grass blades.
 
@@ -22,8 +22,8 @@ This repository contains a project that leverages React, TypeScript, and Vite to
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/MULUALEM-TEKLE/da-grass.git
+   cd da-grass
    ```
 
 2. Install dependencies:
@@ -61,6 +61,10 @@ This repository contains a project that leverages React, TypeScript, and Vite to
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+
+### Reminder
+
+If you find this project useful, consider supporting me by buying me a coffee at [Ko-fi](https://ko-fi.com/X7X616PGB7).
 
 - Configure the top-level `parserOptions` property like this:
 
